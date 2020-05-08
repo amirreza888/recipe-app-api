@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app"
+    "\\app",
+    "\\app\\core",
+    "\\app\\core\\tests"
   ],
-  "SelectedNode": "\\docker-compose.yml",
+  "SelectedNode": "\\app\\core\\models.py",
   "PreviewInSolutionExplorer": false
 }
