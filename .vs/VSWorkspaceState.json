@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\app",
+    "\\app\\app",
     "\\app\\core",
+    "\\app\\core\\migrations",
     "\\app\\core\\tests"
   ],
-  "SelectedNode": "\\app\\core\\models.py",
+  "SelectedNode": "\\app\\app\\settings.py",
   "PreviewInSolutionExplorer": false
 }
