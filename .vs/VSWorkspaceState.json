@@ -4,9 +4,10 @@
     "\\app",
     "\\app\\app",
     "\\app\\core",
-    "\\app\\core\\migrations",
+    "\\app\\core\\management",
+    "\\app\\core\\management\\commands",
     "\\app\\core\\tests"
   ],
-  "SelectedNode": "\\app\\app\\settings.py",
+  "SelectedNode": "\\app\\core\\tests\\test_commands.py",
   "PreviewInSolutionExplorer": false
 }
