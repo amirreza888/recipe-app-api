@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5403d281-73c3-4543-a251-dd81d37f3909" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/VSWorkspaceState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/recipe-app-api/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/recipe-app-api/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../.vs/slnx.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/tests/test_user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/tests/test_user_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +131,9 @@
       <workItem from="1589100231227" duration="1892000" />
       <workItem from="1589460814782" duration="604000" />
       <workItem from="1590316041192" duration="2467000" />
-      <workItem from="1590324807740" duration="287000" />
+      <workItem from="1590324807740" duration="3331000" />
+      <workItem from="1590339675886" duration="3007000" />
+      <workItem from="1590345361223" duration="5493000" />
     </task>
     <servers />
   </component>
