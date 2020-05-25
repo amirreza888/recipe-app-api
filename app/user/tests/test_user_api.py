@@ -11,8 +11,6 @@ TOKEN_URL = reverse('user:token')
 ME_URL = reverse('user:me')
 
 
-
-
 def create_user(**params):
     return get_user_model().objects.create_user(**params)
 
@@ -39,7 +37,7 @@ class PublicUserApiTests(TestCase):
 
     def test_user_exists(self):
         """TEst creating a user that already exists fails"""
-        payload = {'email':'test@yahoo.com', 'password': 'testpass'}
+        payload = {'email': 'test@yahoo.com', 'password': 'testpass'}
         create_user(**payload)
 
         res = self.client.post(CREATE_USER_URL, payload)
@@ -63,7 +61,7 @@ class PublicUserApiTests(TestCase):
 
     def test_create_token_for_user(self):
         """test that a token is created for the user"""
-        payload = {'email':'test@lolo.com', 'password': 'testpse'}
+        payload = {'email': 'test@lolo.com', 'password': 'testpse'}
         create_user(**payload)
         res = self.client.post(TOKEN_URL, payload)
 
@@ -138,4 +136,3 @@ class PrivateUserApiTests(TestCase):
         self.assertEqual(self.user.name, payload['name'])
         self.assertTrue(self.user.check_password(payload['password']))
         self.assertEqual(res.status_code, status.HTTP_200_OK)
-
