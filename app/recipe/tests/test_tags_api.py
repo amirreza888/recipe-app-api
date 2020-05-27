@@ -42,7 +42,7 @@ class PrivateTagsApiTests(TestCase):
         Tag.objects.create(user=self.user, name='vegan')
         Tag.objects.create(user=self.user, name='mmd')
 
-        res=self.client.get(TAGS_URL)
+        res = self.client.get(TAGS_URL)
 
         tags = Tag.objects.all().order_by('-name')
         serializer = TagSerializer(tags, many=True)

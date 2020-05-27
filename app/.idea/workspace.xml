@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5403d281-73c3-4543-a251-dd81d37f3909" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe/tests/test_tags_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/tests/test_tags_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.travis.yml" />
   </component>
   <component name="RunManager" selected="Django Server.app">
     <configuration name="Test: core.tests.test_models.ModelTests" type="DjangoTestsConfigurationType" temporary="true">
@@ -89,6 +95,26 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Test: recipe.tests.test_tags_api.PrivateTagsApiTests.test_tags_limited_to_user" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="recipe.tests.test_tags_api.PrivateTagsApiTests.test_tags_limited_to_user" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="Python.DjangoServer" factoryName="Django server">
       <module name="app" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: recipe.tests.test_tags_api.PrivateTagsApiTests.test_tags_limited_to_user" />
         <item itemvalue="Django tests.Test: core.tests.test_models.ModelTests" />
         <item itemvalue="Django tests.Test: core.tests.test_models.ModelTests.test_create_user_with_email_successful" />
       </list>
@@ -138,7 +165,10 @@
       <workItem from="1590339675886" duration="3007000" />
       <workItem from="1590345361223" duration="5493000" />
       <workItem from="1590421553205" duration="4623000" />
-      <workItem from="1590442119406" duration="6326000" />
+      <workItem from="1590442119406" duration="6744000" />
+      <workItem from="1590491987731" duration="4992000" />
+      <workItem from="1590520243841" duration="9758000" />
+      <workItem from="1590595387118" duration="1238000" />
     </task>
     <servers />
   </component>
@@ -162,6 +192,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="484" y="0" key="#app/0.0.1536.824@0.0.1536.824" timestamp="1589056060404" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590499620954">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590499620954" />
     <state x="150" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589055886211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -170,22 +204,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589104081950" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1590320288195">
+    <state x="87" y="335" key="FileChooserDialogImpl" timestamp="1590595811444">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590320288195" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1590320288195">
+    <state x="87" y="335" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590595811444" />
+    <state width="723" height="209" key="GridCell.Tab.0.bottom" timestamp="1590500698592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590320288195" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1590320288195">
+    <state width="723" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590500698592" />
+    <state width="723" height="209" key="GridCell.Tab.0.center" timestamp="1590500698592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590320288195" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1590320288195">
+    <state width="723" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590500698592" />
+    <state width="723" height="209" key="GridCell.Tab.0.left" timestamp="1590500698592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590320288195" />
+    <state width="723" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590500698592" />
+    <state width="723" height="209" key="GridCell.Tab.0.right" timestamp="1590500698592">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590500698592" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1590500698582">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590500698582" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1590500698582">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590500698582" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1590500698582">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590500698582" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1590500698582">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590500698582" />
+    <state x="-127" y="357" width="934" height="827" key="dock-window-1" timestamp="1590529298248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-127" y="357" width="934" height="827" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1590529298248" />
+    <state x="762" y="0" width="781" height="830" key="dock-window-2" timestamp="1590529416428">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="762" y="0" width="781" height="830" key="dock-window-2/0.0.1536.824@0.0.1536.824" timestamp="1590529416428" />
+    <state x="762" y="0" width="781" height="830" key="dock-window-3" timestamp="1590530040321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="762" y="0" width="781" height="830" key="dock-window-3/0.0.1536.824@0.0.1536.824" timestamp="1590530040321" />
     <state x="815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590425580230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -193,6 +259,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/app$Test__core_tests_test_models_ModelTests.coverage" NAME="Test: core.tests.test_models.ModelTests Coverage Results" MODIFIED="1589056627134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/app$Test__recipe_tests_test_tags_api_PrivateTagsApiTests_test_tags_limited_to_user.coverage" NAME="Test: recipe.tests.test_tags_api.PrivateTagsApiTests.test_tags_limited_to_user Coverage Results" MODIFIED="1590496159815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/app$Test__core_tests_test_models_ModelTests_test_create_user_with_email_successful.coverage" NAME="Test: core.tests.test_models.ModelTests.test_create_user_with_email_successful Coverage Results" MODIFIED="1589056596315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
