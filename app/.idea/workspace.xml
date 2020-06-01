@@ -21,10 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5403d281-73c3-4543-a251-dd81d37f3909" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe/tests/test_recipe_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/tests/test_recipe_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +173,8 @@
       <workItem from="1590875882252" duration="3961000" />
       <workItem from="1591011565537" duration="4974000" />
       <workItem from="1591026611406" duration="2963000" />
-      <workItem from="1591036052692" duration="5528000" />
+      <workItem from="1591036052692" duration="5855000" />
+      <workItem from="1591049258650" duration="28000" />
     </task>
     <servers />
   </component>
