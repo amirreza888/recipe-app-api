@@ -22,6 +22,7 @@
     <list default="true" id="5403d281-73c3-4543-a251-dd81d37f3909" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe/tests/test_recipe_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/tests/test_recipe_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
