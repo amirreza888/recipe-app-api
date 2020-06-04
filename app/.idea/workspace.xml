@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5403d281-73c3-4543-a251-dd81d37f3909" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipe/tests/test_recipe_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/tests/test_recipe_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe/tests/test_ingredients_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/tests/test_ingredients_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe/tests/test_tags_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/tests/test_tags_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,6 +177,8 @@
       <workItem from="1591026611406" duration="2963000" />
       <workItem from="1591036052692" duration="5855000" />
       <workItem from="1591049258650" duration="28000" />
+      <workItem from="1591306033702" duration="3225000" />
+      <workItem from="1591309581059" duration="1298000" />
     </task>
     <servers />
   </component>
